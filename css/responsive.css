@@ -1,0 +1,114 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px)
+{
+    .col-lg-3:hover
+    {
+    transform: scale(1);
+    }
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    .card
+    {
+        width: 90% !important;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .popular-price
+    {
+        width: 100% !important;
+    }
+
+    .imgx
+    {
+        width: 50% !important;
+    }
+
+    .btn-flw
+    {
+        width:100%
+    }
+    .text-flw h3
+    {
+        font-size: 17px !important;
+    }
+
+    footer
+    {
+        text-align: center !important;
+    }
+
+    footer ul
+    {
+        text-align: center !important;
+    }
+
+    .footer-ul li
+    {
+        text-align: center !important;
+    }
+
+    .footer-ul li a
+    {
+        text-align: center !important;
+        margin: auto !important;
+    }
+
+    .first-text
+    {
+        font-size: 25px;
+    }
+    .sec-text
+    {
+        font-size: 10px;
+    }
+
+    .text-flw h3
+    {
+        text-align: center !important;
+    }
+
+    .footer-copyright p
+    {
+        font-size: 12px;
+        display: block !important
+    }
+
+    .section-heading h2 {
+        font-size: 34px !important;
+    }
+
+
+    form
+    {
+        width: 100%;
+    }
+
+    .title-form
+    {
+        font-size: 20px !important;
+    }
+
+    .row-buy
+    {
+        flex-wrap: nowrap !important;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+    }
+
+
+    .navbar
+    {
+        background-color: rgb(4, 102, 61);
+    }
+
+    .telegram-support{display: none}
+}

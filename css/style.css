@@ -1,0 +1,497 @@
+@font-face {
+    font-family: IranSans;
+    src: url("../fonts/IranSans.woff");
+    
+}
+@font-face {
+    font-family: "aviny";
+    src: url("../fonts/aviny.ttf");
+    font-weight: bold;
+}
+  
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    direction:rtl;
+    font-family: IranSans, sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    background: rgba(167, 154, 154, 0.637);
+}
+.container
+{
+    max-width: 1140px;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(20, 56, 80, 0.637) , rgba(28, 56, 30, 0.5)) , url("../img/video-bg.jpg");
+    height: 50vh;
+    background-position: center center;
+    background-size: center;
+}
+
+.navbar
+{
+    padding-top: 28px;
+}
+
+.navbar-brand
+{
+    color: #fff;
+    opacity: 0.9;
+}
+
+.navbar-brand:hover
+{
+    color: #fff;
+    opacity: 1;
+}
+
+.nav-link
+{
+    color: #fff !important;
+    padding-left: 150px;
+    margin-right: 20px;
+    font-size: 13px;
+    opacity: 1;
+}
+
+.dropdown-item
+{
+    text-align: right !important;
+}
+
+.nav-link:hover
+{
+    color: #fff;
+    opacity: 1;
+}
+
+.card
+{
+    text-align: center;
+}
+
+.card-img-top
+{
+    width:50px;
+}
+
+.telegram-support
+{
+    background-color: rgb(30, 190, 190);
+    border-radius: 15px;
+}
+
+.logo
+{
+    width: 50px;
+    border-radius: 200px;
+}
+
+.card-1
+{
+    background-color: rgb(202, 110, 126);
+}
+
+.card-2
+{
+    background-color: rgba(20, 182, 182, 0.61);
+}
+
+.card-3
+{
+    background-color: rgba(128, 0, 128, 0.596);
+}
+.card-4
+{   
+    background-color: rgba(214, 145, 16, 0.733);
+}
+
+.card-5
+{
+    background: rgba(25, 128, 25, 0.582);
+}
+.card-title
+{
+    color: #fff;
+    font-style: italic;
+}
+
+
+.row
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box
+{
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.col-box
+{
+    text-align: center;
+    color: rgba(128, 0, 128, 0.808);
+}
+
+.text
+{
+    font-size: 12px;
+    color: #888;
+}
+
+section
+{
+    padding-top: 20px;
+}
+
+.list-group-item
+{
+    background:rgba(255, 255, 255, 0.822);
+}
+
+
+.list-group-item a
+{
+    color: #000 !important;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.list-group-item a:hover
+{
+    opacity: 1;
+}
+
+.card
+{
+    margin-left: 10px;
+}
+
+i
+{
+    font-size: 35px;
+    color: #fff;
+}
+
+.ico
+{
+    color: rgba(255, 0, 0, 0.582) !important;
+    width: 200px !important;
+}
+
+.mid
+{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.title
+{
+    font-style: italic !important;
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+.imgx
+{
+    width: 70%;
+    border-radius: 200px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.pricing-img
+{
+    margin-top: 0 !important;
+    border-bottom: 1px solid #888;
+}
+
+.list-unstyled li
+{
+    font-size: 12px;
+    list-style: circle;
+    text-align: right !important;
+    opacity: 0.8;
+    line-height: 2;
+}
+
+.old-price
+{
+    font-size: 14px;
+    color: red;
+    text-decoration: line-through;
+}
+.new-price
+{
+    font-size: 14px;
+}
+
+.buy
+{
+    background: #1293d6;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.col-lg-3
+{
+    transition: transform 0.4s
+}
+
+.col-lg-3:hover
+{
+    transform: scale(1.1);
+}
+
+.social
+{
+    background: linear-gradient(rgba(90, 50, 77, 0.692),rgba(109, 7, 66, 0.664)) , url(../img/social1.jpg);
+    background-size: center;
+    background-repeat: none;
+    background-position: center;
+    height: 35vh;
+}
+
+.text-flw
+{
+    color: #fff;
+    font-style: italic;
+}
+
+.btn-flw
+{
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    width: 20%;
+    padding: 11px;
+    border-radius: 11px;
+}
+
+.btn-flw a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.insta-view
+{
+    background-color: #fff;
+}
+
+
+.igtv-flex
+{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527) , rgba(0, 0, 0, 0.466)) ,url(../img/2005054.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.igtv-img
+{
+    width: 100%;
+    border-radius: 150px;
+    margin-right: 10px;
+}
+
+.igtv-title
+{
+    color: #000;
+}
+
+.igtv-heading
+{
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+footer
+{
+    direction: rtl !important;
+    text-align: right !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.footer-logo
+{
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+
+.small a
+{
+    color: #000;
+    opacity: 0.8;
+}
+
+.footer-copyright
+{
+    background: #42c17bd2;
+    text-align: right !important;
+}
+
+.copyright
+{
+    color: #fff !important;
+    opacity: 1;
+}
+
+.footer-ul li
+{
+    list-style: none !important;
+}
+
+.footer-ul li a 
+{
+    color: #000;
+}
+
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar-default.scrolled{
+    background:#42c148d7;
+  }
+
+
+  .pt-4
+  {
+      font-family: aviny !important;
+      font-weight: 500 !important;
+  }
+
+  .pt-4 h5
+  {
+    font-size: 30px !important;
+  }
+
+
+  .section-heading
+  {
+      font-family: aviny !important;
+  }
+
+  .section-heading h2
+  {
+      font-size: 40px !important;
+  }
+
+  .card-title
+  {
+      font-family: aviny !important;
+      font-size: 28px !important;
+  }
+
+  .buy-page
+  {
+      background-color: #fff;
+  }
+
+ 
+
+  .row-buy
+  {
+      flex-wrap: nowrap !important;
+      padding: 80px !important;
+  }
+
+  .header-buy
+  {
+      height: 30vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.719)) , url(../img/social1.jpg);
+  }
+
+  .header-buy .nav-link
+  {
+      opacity: 1;
+  }
+
+
+
+
+  /* sefaresh form */
+  form
+  {
+      width: 50%;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 20px !important;
+      text-align: center;
+  }
+
+
+  .title-form
+  {
+      font-family: aviny !important;
+      font-size: 27px !important;
+  }
+
+
+  .sefaresh
+  {
+      background: #fff;
+      border: none !important;
+  }
+
+  .factor
+  {
+      margin: auto !important;
+  }
+
+  .factor td
+  {
+      border: 1px solid #ccc;
+      padding: 18px;
+      font-size: 14px;
+  }
+
+  .opacity
+  {
+      opacity: 0.8;
+  }
+
+  /* .form-control
+  {
+      margin-top: 20px;
+  } */
+
+  label
+  {
+      font-family: aviny !important;
+      font-size: 20px !important;
+  }
+
+
+  .xyz
+  {
+      width: 75%;
+      margin: auto;
+  }
+
+  .navbar-toggler-icon {
+    color:white !important;
+  }
+
+  .fa-telegram
+  {
+      font-size: 50px !important;
+  }
